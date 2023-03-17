@@ -1,0 +1,69 @@
+[25-Sep-2019 17:53:23 UTC] Slim Application Error:
+Type: Error
+Message: Cannot pass parameter 2 by reference
+File: /home/adminlaundryapp/public_html/access/src/routes/tarea.php
+Line: 48
+Trace: #0 [internal function]: Closure->{closure}(Object(Slim\Http\Request), Object(Slim\Http\Response), Array)
+#1 /home/adminlaundryapp/public_html/access/vendor/slim/slim/Slim/Handlers/Strategies/RequestResponse.php(41): call_user_func(Object(Closure), Object(Slim\Http\Request), Object(Slim\Http\Response), Array)
+#2 /home/adminlaundryapp/public_html/access/vendor/slim/slim/Slim/Route.php(344): Slim\Handlers\Strategies\RequestResponse->__invoke(Object(Closure), Object(Slim\Http\Request), Object(Slim\Http\Response), Array)
+#3 /home/adminlaundryapp/public_html/access/vendor/slim/slim/Slim/MiddlewareAwareTrait.php(116): Slim\Route->__invoke(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#4 /home/adminlaundryapp/public_html/access/vendor/slim/slim/Slim/Route.php(316): Slim\Route->callMiddlewareStack(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#5 /home/adminlaundryapp/public_html/access/vendor/slim/slim/Slim/App.php(438): Slim\Route->run(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#6 /home/adminlaundryapp/public_html/access/src/routes/tarea.php(12): Slim\App->__invoke(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#7 [internal function]: Closure->{closure}(Object(Slim\Http\Request), Object(Slim\Http\Response), Object(Slim\App))
+#8 /home/adminlaundryapp/public_html/access/vendor/slim/slim/Slim/DeferredCallable.php(43): call_user_func_array(Object(Closure), Array)
+#9 [internal function]: Slim\DeferredCallable->__invoke(Object(Slim\Http\Request), Object(Slim\Http\Response), Object(Slim\App))
+#10 /home/adminlaundryapp/public_html/access/vendor/slim/slim/Slim/MiddlewareAwareTrait.php(67): call_user_func(Object(Slim\DeferredCallable), Object(Slim\Http\Request), Object(Slim\Http\Response), Object(Slim\App))
+#11 /home/adminlaundryapp/public_html/access/vendor/slim/slim/Slim/MiddlewareAwareTrait.php(116): Slim\App->Slim\{closure}(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#12 /home/adminlaundryapp/public_html/access/vendor/slim/slim/Slim/App.php(332): Slim\App->callMiddlewareStack(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#13 /home/adminlaundryapp/public_html/access/vendor/slim/slim/Slim/App.php(293): Slim\App->process(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#14 /home/adminlaundryapp/public_html/access/public/index.php(20): Slim\App->run()
+#15 {main}
+View in rendered output by enabling the "displayErrorDetails" setting.
+
+[25-Sep-2019 17:53:29 UTC] Slim Application Error:
+Type: Error
+Message: Cannot pass parameter 2 by reference
+File: /home/adminlaundryapp/public_html/access/src/routes/tarea.php
+Line: 48
+Trace: #0 [internal function]: Closure->{closure}(Object(Slim\Http\Request), Object(Slim\Http\Response), Array)
+#1 /home/adminlaundryapp/public_html/access/vendor/slim/slim/Slim/Handlers/Strategies/RequestResponse.php(41): call_user_func(Object(Closure), Object(Slim\Http\Request), Object(Slim\Http\Response), Array)
+#2 /home/adminlaundryapp/public_html/access/vendor/slim/slim/Slim/Route.php(344): Slim\Handlers\Strategies\RequestResponse->__invoke(Object(Closure), Object(Slim\Http\Request), Object(Slim\Http\Response), Array)
+#3 /home/adminlaundryapp/public_html/access/vendor/slim/slim/Slim/MiddlewareAwareTrait.php(116): Slim\Route->__invoke(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#4 /home/adminlaundryapp/public_html/access/vendor/slim/slim/Slim/Route.php(316): Slim\Route->callMiddlewareStack(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#5 /home/adminlaundryapp/public_html/access/vendor/slim/slim/Slim/App.php(438): Slim\Route->run(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#6 /home/adminlaundryapp/public_html/access/src/routes/tarea.php(12): Slim\App->__invoke(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#7 [internal function]: Closure->{closure}(Object(Slim\Http\Request), Object(Slim\Http\Response), Object(Slim\App))
+#8 /home/adminlaundryapp/public_html/access/vendor/slim/slim/Slim/DeferredCallable.php(43): call_user_func_array(Object(Closure), Array)
+#9 [internal function]: Slim\DeferredCallable->__invoke(Object(Slim\Http\Request), Object(Slim\Http\Response), Object(Slim\App))
+#10 /home/adminlaundryapp/public_html/access/vendor/slim/slim/Slim/MiddlewareAwareTrait.php(67): call_user_func(Object(Slim\DeferredCallable), Object(Slim\Http\Request), Object(Slim\Http\Response), Object(Slim\App))
+#11 /home/adminlaundryapp/public_html/access/vendor/slim/slim/Slim/MiddlewareAwareTrait.php(116): Slim\App->Slim\{closure}(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#12 /home/adminlaundryapp/public_html/access/vendor/slim/slim/Slim/App.php(332): Slim\App->callMiddlewareStack(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#13 /home/adminlaundryapp/public_html/access/vendor/slim/slim/Slim/App.php(293): Slim\App->process(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#14 /home/adminlaundryapp/public_html/access/public/index.php(20): Slim\App->run()
+#15 {main}
+View in rendered output by enabling the "displayErrorDetails" setting.
+
+[25-Sep-2019 17:54:15 UTC] Slim Application Error:
+Type: Error
+Message: Cannot pass parameter 2 by reference
+File: /home/adminlaundryapp/public_html/access/src/routes/tarea.php
+Line: 48
+Trace: #0 [internal function]: Closure->{closure}(Object(Slim\Http\Request), Object(Slim\Http\Response), Array)
+#1 /home/adminlaundryapp/public_html/access/vendor/slim/slim/Slim/Handlers/Strategies/RequestResponse.php(41): call_user_func(Object(Closure), Object(Slim\Http\Request), Object(Slim\Http\Response), Array)
+#2 /home/adminlaundryapp/public_html/access/vendor/slim/slim/Slim/Route.php(344): Slim\Handlers\Strategies\RequestResponse->__invoke(Object(Closure), Object(Slim\Http\Request), Object(Slim\Http\Response), Array)
+#3 /home/adminlaundryapp/public_html/access/vendor/slim/slim/Slim/MiddlewareAwareTrait.php(116): Slim\Route->__invoke(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#4 /home/adminlaundryapp/public_html/access/vendor/slim/slim/Slim/Route.php(316): Slim\Route->callMiddlewareStack(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#5 /home/adminlaundryapp/public_html/access/vendor/slim/slim/Slim/App.php(438): Slim\Route->run(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#6 /home/adminlaundryapp/public_html/access/src/routes/tarea.php(12): Slim\App->__invoke(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#7 [internal function]: Closure->{closure}(Object(Slim\Http\Request), Object(Slim\Http\Response), Object(Slim\App))
+#8 /home/adminlaundryapp/public_html/access/vendor/slim/slim/Slim/DeferredCallable.php(43): call_user_func_array(Object(Closure), Array)
+#9 [internal function]: Slim\DeferredCallable->__invoke(Object(Slim\Http\Request), Object(Slim\Http\Response), Object(Slim\App))
+#10 /home/adminlaundryapp/public_html/access/vendor/slim/slim/Slim/MiddlewareAwareTrait.php(67): call_user_func(Object(Slim\DeferredCallable), Object(Slim\Http\Request), Object(Slim\Http\Response), Object(Slim\App))
+#11 /home/adminlaundryapp/public_html/access/vendor/slim/slim/Slim/MiddlewareAwareTrait.php(116): Slim\App->Slim\{closure}(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#12 /home/adminlaundryapp/public_html/access/vendor/slim/slim/Slim/App.php(332): Slim\App->callMiddlewareStack(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#13 /home/adminlaundryapp/public_html/access/vendor/slim/slim/Slim/App.php(293): Slim\App->process(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#14 /home/adminlaundryapp/public_html/access/public/index.php(20): Slim\App->run()
+#15 {main}
+View in rendered output by enabling the "displayErrorDetails" setting.
+
