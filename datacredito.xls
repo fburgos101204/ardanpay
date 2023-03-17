@@ -1,0 +1,164 @@
+<html xmlns:x='urn:schemas-microsoft-com:office:excel'>
+<head>
+    <!--[if gte mso 9]>
+    <xml>
+        <x:ExcelWorkbook>
+            <x:ExcelWorksheets>
+                <x:ExcelWorksheet>
+                    <x:Name>Sheet 1</x:Name>
+                    <x:WorksheetOptions>
+                        <x:Print>
+                            <x:ValidPrinterInfo/>
+                        </x:Print>
+                    </x:WorksheetOptions>
+                </x:ExcelWorksheet>
+            </x:ExcelWorksheets>
+        </x:ExcelWorkbook>
+    </xml>
+    <![endif]-->
+</head>
+<body>
+<table border='1' width='100%' cellpadding='5'>
+<tr style='text-align:center;'>
+	<th style='background:yellow;'>NOMBRE</th>
+	<th style='background:yellow;'>CEDULA-RNC</th>
+	<th style='background:gray'>DIRECCION</th>
+	<th style='background:gray'>TELEFONO 1</th>
+	<th style='background:gray'>TELEFONO 2</th>
+	<th style='background:yellow'>NUMERO DE CUENTA</th>
+	<th style='background:yellow'>FECHA APERTURA</th>
+	<th style='background:yellow'>MONTO FORMALIZADO</th>
+	<th style='background:#B22222'>ESTATUS</th>
+	<th style='background:#B22222'>BALANCE AL DIA</th>
+	<th style='background:#B22222'>MONTO EN ATRASO</th>
+	<th style='background:#B22222'>FECHA ULTIMO PAGO</th>
+	<th style='background:#B22222'>FECHA DE VENCIMIENTO</th>
+</tr><tr>
+	<td>Luis Angel Gimenez</td>
+	<td>402-1000000-0</td>
+	<td>Av Venezuela</td>
+	<td>809-000-0000</td>
+	<td>849-656-6316</td>
+	<td>103A</td>
+	<td>2019-10-01 18:38:39</td>
+	<td>100,000</td>
+	<td>N</td>
+	<td>88,889</td>
+	<td>0</td>
+	<td>2019-09-26</td>
+	<td>2020-06-27</td>
+</tr><tr>
+	<td>Luis Angel Gimenez</td>
+	<td>402-1000000-0</td>
+	<td>Av Venezuela</td>
+	<td>809-000-0000</td>
+	<td>849-656-6316</td>
+	<td>104A</td>
+	<td>2019-10-23 18:38:39</td>
+	<td>20,000</td>
+	<td>L</td>
+	<td>16,667</td>
+	<td>0</td>
+	<td>2019-11-09</td>
+	<td>2020-10-17</td>
+</tr><tr>
+	<td>Luis Angel Gimenez</td>
+	<td>402-1000000-0</td>
+	<td>Av Venezuela</td>
+	<td>809-000-0000</td>
+	<td>849-656-6316</td>
+	<td>105A</td>
+	<td>2019-10-23 18:38:39</td>
+	<td>20,000</td>
+	<td>L</td>
+	<td>16,667</td>
+	<td>0</td>
+	<td>2019-11-09</td>
+	<td>2020-10-17</td>
+</tr><tr>
+	<td>Luis Angel Gimenez</td>
+	<td>402-1000000-0</td>
+	<td>Av Venezuela</td>
+	<td>809-000-0000</td>
+	<td>849-656-6316</td>
+	<td>106A</td>
+	<td>2019-10-23 18:38:39</td>
+	<td>121,212</td>
+	<td>N</td>
+	<td>111,111</td>
+	<td>0</td>
+	<td>2019-11-20</td>
+	<td>2020-10-17</td>
+</tr><tr>
+	<td>Luis Angel Gimenez</td>
+	<td>402-1000000-0</td>
+	<td>Av Venezuela</td>
+	<td>809-000-0000</td>
+	<td>849-656-6316</td>
+	<td>107A</td>
+	<td>2019-06-11 18:38:39</td>
+	<td>10,000</td>
+	<td>S</td>
+	<td>0</td>
+	<td>0</td>
+	<td>2019-11-20</td>
+	<td>2019-08-10</td>
+</tr><tr>
+	<td>Luis Angel Gimenez</td>
+	<td>402-1000000-0</td>
+	<td>Av Venezuela</td>
+	<td>809-000-0000</td>
+	<td>849-656-6316</td>
+	<td>108A</td>
+	<td>2019-10-23 18:38:39</td>
+	<td>10,000</td>
+	<td>N</td>
+	<td>9,167</td>
+	<td>0</td>
+	<td>2019-11-20</td>
+	<td>2020-10-17</td>
+</tr><tr>
+	<td>Luis Angel Gimenez</td>
+	<td>402-1000000-0</td>
+	<td>Av Venezuela</td>
+	<td>809-000-0000</td>
+	<td>849-656-6316</td>
+	<td>109A</td>
+	<td>2019-10-23 18:38:39</td>
+	<td>10,000</td>
+	<td>N</td>
+	<td>9,167</td>
+	<td>0</td>
+	<td>2019-11-20</td>
+	<td>2020-10-17</td>
+</tr><tr>
+	<td>Jean Carlosk Nuñez Liriano</td>
+	<td>515-1112521-1</td>
+	<td>agasdgasdgasdgasdgsadgasdgasdgsd</td>
+	<td>809-547-8521</td>
+	<td>829-456-8741</td>
+	<td>110A</td>
+	<td>2019-10-25 18:42:58</td>
+	<td>1,000</td>
+	<td>N</td>
+	<td>725</td>
+	<td>0</td>
+	<td>2019-10-26</td>
+	<td>2019-10-28</td>
+</tr><tr>
+	<td>Jean Carlosk Nuñez Liriano</td>
+	<td>515-1112521-1</td>
+	<td>agasdgasdgasdgasdgsadgasdgasdgsd</td>
+	<td>809-547-8521</td>
+	<td>829-456-8741</td>
+	<td>111A</td>
+	<td>2019-10-26 19:40:38</td>
+	<td>1,000</td>
+	<td>S</td>
+	<td>0</td>
+	<td>0</td>
+	<td>2019-10-26</td>
+	<td>2019-10-28</td>
+</tr></table>
+</body>
+</html>
